@@ -1,14 +1,11 @@
-@import 'yoga';
-@import 'normalize';
-
+// @import 'yoga-sass/assets/yoga';
+// @import 'normalize-css/normalize';
+$c-background: #949699;
+$c-text: #39393a;
+$c-white: #fff;
+$c-black: #000;
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-@import 'font-awesome';
+// @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
-
-* {
-  background: #000;
-}
-
-.nav_left {
-  color: white;
-}
+@import 'form';
+@import 'nav';
